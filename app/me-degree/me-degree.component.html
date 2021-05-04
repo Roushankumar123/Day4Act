@@ -1,0 +1,15 @@
+<table>
+    <tr *ngFor="let faculty of faculties">
+        <ng-container *ngIf="faculty.facultyQualification==='ME'">
+            <td>{{faculty.facultyId}}</td>
+            <td>{{faculty.facultyname}}</td>
+            <td>{{faculty.facultyEmail}}</td>
+            <td>{{faculty.facultymobile}}</td>
+            <td>{{faculty.facultyLocation}}</td>
+            <td>{{faculty.facultyQualification}}</td> 
+
+
+
+        </ng-container>
+    </tr>
+</table>
